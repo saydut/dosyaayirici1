@@ -1,6 +1,7 @@
 import sys
 import os
 import re
+import base64
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QLabel, QLineEdit, QPushButton, QFileDialog, QComboBox,
@@ -9,6 +10,9 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QIcon, QPixmap, QColor, QPalette, QGuiApplication
+
+EASTER_EGG_IMAGE_B64 = "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/epv2AAAAABJRU5ErkJggg=="
+
 
 
 # --- Stil ve Tema Ayarları ---
